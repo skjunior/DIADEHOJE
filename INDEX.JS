@@ -1,0 +1,81 @@
+
+function imprimirOláMundo() {
+    console.log("Olá Mundo!");
+}
+imprimirOláMundo("Olá Mundo!");
+var altura;
+var largura;
+function calcularArea(altura, largura) {
+    const area = altura * largura
+    console.log(area);
+}
+calcularArea(2, 3);
+
+function imprimirNome(nome) {
+    console.log("Olá " + nome);
+}
+let lerNome = prompt("Qual seu nome?")
+imprimirNome(lerNome);
+
+const a = 1
+
+function imprimeVariavel() {
+    const b = 2
+    console.log('variavel a', a);
+    console.log('variavel b'. b);
+}
+imprimeVariavel()
+console.log('Variável a', a);
+console.log('Variável b', b);
+
+
+var altura;
+var largura;
+function calcularArea(altura, largura) {
+    const area = altura * largura
+    return area
+}
+const areaCalculada = calcularArea(2, 3);
+
+console.log(calcularArea(5, 3));
+
+
+var unidade1;
+var unidade;
+function calcularUnidades(unidade1, unidade) {
+    const valor = unidade1 + unidade
+    return valor
+}
+const valorCalculado = calcularUnidades(4, 10);
+
+console.log(calcularUnidades(10, 10));
+
+
+/*
+chat GPT
+function calcularMediaExtremos(arrayDeNumeros) {
+    // Verifica se o array está vazio ou tem menos de dois elementos
+    if (arrayDeNumeros.length < 2) {
+      return "O array precisa ter pelo menos dois números.";
+    }
+  
+    // Calcula a média dos extremos (primeiro e último número)
+    const primeiroNumero = arrayDeNumeros[0];
+    const ultimoNumero = arrayDeNumeros[arrayDeNumeros.length - 1];
+    const mediaPrimeiroUltimo = (primeiroNumero + ultimoNumero) / 2;
+  
+    // Retorna um novo array com a média dos extremos
+    return [ultimoNumero / 2, mediaPrimeiroUltimo];
+  }
+  
+  // Exemplo de uso:
+const arrayDeNumeros = [1, 2, 3, 4, 5];
+const resultado = calcularMediaExtremos(arrayDeNumeros);
+console.log(resultado); // Deve imprimir [2.5, 3]
+*/
+
+function arrayNumero(arrayDeNumeros) {
+    const numeroFinal = arrayDeNumeros[4];
+    const numeroInicial = arrayDeNumeros[0];
+    let resultado = arrayDeNumeros[4] / 2;
+}
